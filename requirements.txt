@@ -1,0 +1,13 @@
+fastapi
+uvicorn[standard]
+streamlit
+langchain
+pinecone
+huggingface_hub
+sentence-transformers
+pypdf
+python-docx
+pandas
+openpyxl
+python-dotenv
+requests
