@@ -98,7 +98,7 @@ The frontend application will be accessible at `http://localhost:8501`.
 streamlit run app.py
 ```
 
-##  kullanım
+##  How to Use
 
 1.  Open your web browser and navigate to `http://localhost:8501`.
 2.  Use the sidebar to upload one or more documents.
