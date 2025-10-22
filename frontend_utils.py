@@ -6,7 +6,7 @@ import json
 import uuid
 
 # --- Configuration ---
-FASTAPI_URL = "http://127.0.0.1:8000"
+FASTAPI_URL = "https://multi-document-rag-chatbot.onrender.com/"
 
 # --- Session State Management ---
 def init_session_state():
@@ -77,3 +77,4 @@ def format_structured_data(data, level=0):
     else:
         markdown_output += f"{data}\n\n"
     return markdown_output
+
