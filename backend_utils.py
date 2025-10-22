@@ -7,10 +7,10 @@ import pandas as pd
 from dotenv import load_dotenv
 
 # LangChain and Community imports
-from langchain.text_splitter import RecursiveCharacterTextSplitter
+from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader, Docx2txtLoader, TextLoader
 from langchain_google_genai import GoogleGenerativeAIEmbeddings
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_core.prompts import PromptTemplate
 
 # Pinecone V3 Client Import
