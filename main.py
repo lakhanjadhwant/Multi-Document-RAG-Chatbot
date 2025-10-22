@@ -12,7 +12,7 @@ from fastapi.middleware.cors import CORSMiddleware
 
 # LangChain imports
 from langchain_groq import ChatGroq
-from langchain.schema import Document
+from langchain_core.documents import Document
 from langchain_core.output_parsers import StrOutputParser
 
 # Import from our new utility file
