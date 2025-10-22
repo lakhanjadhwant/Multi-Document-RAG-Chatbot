@@ -2,6 +2,7 @@ fastapi
 uvicorn[standard]
 streamlit
 langchain
+langchain_groq
 pinecone
 huggingface_hub
 sentence-transformers
@@ -10,4 +11,5 @@ python-docx
 pandas
 openpyxl
 python-dotenv
+
 requests
